@@ -1,34 +1,151 @@
 <!doctype html>
 <html>
-<head>
-  <title>GOALD - MONEY</title>
-  <meta charset="utf-8">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180232965-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <title>GOALD:HOBBY</title>
+    <meta charset="utf-8">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180232965-1"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'UA-180232965-1');
-</script>
+      gtag('config', 'UA-180232965-1');
+      </script>
+      <style>
+        #titlename{
+          text-align: center;
+        }
+        .wide{
+          display: grid;
+          grid-template-columns: 200px 1fr;
+        }
+        .maintext{
+          padding-left: 15px;
+        }
+        ul{
+          padding: 0px;
+          padding-left: 10px;
+          margin: 20px;
+          border-right: solid 0.5px #DCDCDC;
+          list-style-type: circle;
+        }
+        a{
+          color:black;
+          text-decoration: none;
+        }
+        h1{
+          font-size: 45px;
+          margin-top: 30px;
+          margin-bottom: 0px
+        }
+        h2{
+          font-size: 15px;
+          font-weight: lighter;
+          letter-spacing: 5px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          border-bottom: solid 0.5px #DCDCDC;
+          margin: 0px;
+        }
+        p{
+          margin: 16px
+        }
+        table{
+          border:solid 0.5px #C0C0C0;
+        }
+        td{
+          border:solid 0.5px #C0C0C0;
+          padding: 7px
+        }
+        @media(max-width:700px){
+          .wide{
+            display: block;
+          }
+          .narrow{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+          }
+          li{
+            display: inline;
+            text-align: center;
+          }
+          ul{
+            border-right: none;
+          }
+        }
+      </style>
+  </head>
+  <body>
+    <h1 id="titlename"><a href="index.html">GOALD</a></h1>
+    <h2 id="titlename">빛나는 미래를 위한 계획</h2>
+    <div class="wide">
+      <ul class="narrow">
+        <li><a href="1.html">GOAL</a></li>
+        <li><a href="2.html">HOBBY</a></li>
+        <li><a href="3.html">MONEY</a></li>
+      </ul>
+      <div class="maintext">
+        <h3>HOBBY</h3>
+        <table>
+          <tr>
+            <td>1.</td>
+            <td>아이돈케어 정주행</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>부자언니 부자특강</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>부자언니 부자연습</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>모의주식</td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>경제신문</td>
+          </tr>
+          </table>
+      </div>
+    </div>
+    <p>
+       <div id="disqus_thread"></div>
+     <script>
 
-</head>
-<body>
-  <h1><a href="index.html">GOALD</a></h1>
-  <ul>
-    <li><a href="1.html">GOAL</a></li>
-    <li><a href="2.html">HOBBY</a></li>
-    <li><a href="3.html">MONEY</a></li>
-  </ul>
-  <h2>MONEY</h2>
-  <p><strong>☞<u>Just do it</u></strong></p>
-  <ol>
-    <li>아이돈케어 정주행</li>
-    <li>부자언니 부자특강</li>
-    <li>부자언니 부자연습</li>
-    <li>모의주식</li>
-    <li>경제신문</li>
-  </ol>
-</body>
+     /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+     /*
+     var disqus_config = function () {
+     this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+     };
+     */
+     (function() { // DON'T EDIT BELOW THIS LINE
+     var d = document, s = d.createElement('script');
+     s.src = 'https://goald.disqus.com/embed.js';
+     s.setAttribute('data-timestamp', +new Date());
+     (d.head || d.body).appendChild(s);
+     })();
+     </script>
+     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+     </p>
+     <!--Start of Tawk.to Script-->
+     <script type="text/javascript">
+     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+     (function(){
+     var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+     s1.async=true;
+     s1.src='https://embed.tawk.to/5f81108f4704467e89f62dd1/default';
+     s1.charset='UTF-8';
+     s1.setAttribute('crossorigin','*');
+     s0.parentNode.insertBefore(s1,s0);
+     })();
+     </script>
+     <!--End of Tawk.to Script-->
+  </body>
 </html>
