@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MY SPACE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Serif+KR:wght@200;300;500;900&family=Roboto:ital,wght@1,300;1,900&display=swap" rel="stylesheet">
+    <style>
+      html{
+        height: 100%;
+      }
+      body{
+        background:linear-gradient(to bottom,#010103 60%,#05050d 80%,#04030f);
+        font-family: 'Noto Serif KR', serif;
+        color: #fffafd;
+      }
+      h1{
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 0px;
+      }
+      h2{
+        font-weight: 200;
+        font-size: 15px;
+        letter-spacing: 8px;
+        border: 0.5px #ffffff solid;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #ffffff;
+        background-color: rgba(255, 255, 255, 0.1);
+        text-align: center;
+      }
+      ul{
+        list-style-image: url(star.png);
+      }
+      a{
+        text-decoration: none;
+        color: inherit;
+      }
+      .daybutton{
+        background: url(sun.png);
+        border: none;
+        padding: none;
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+      }
+      .nightbutton{
+        background: url(moon.png);
+        border: none;
+        padding: none;
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><a href="MYSPACEindex.html">MY SPACE</a></h1>
+    <h2>강한 의지는 운명 전체를 관통한다.</h2>
+    <ul>
+      <li><a href="DIARYlist.html">Diary</a></li>
+      <li>Goal</li>
+      <li>Scrap</li>
+    </ul>
+    <input type="button" class="daybutton" onclick="
+      document.querySelector('body').style.background = 'linear-gradient(to bottom,#eedcfc 60%,#fff2fb 80%,#fffafd)';
+      document.querySelector('body').style.color = '#04030f';
+    ">
+    <input type="button" class="nightbutton" onclick="
+      document.querySelector('body').style.background = 'linear-gradient(to bottom,#010103 60%,#05050d 80%,#04030f)';
+      document.querySelector('body').style.color = '#fffafd';
+    ">
+  </body>
+</html>
